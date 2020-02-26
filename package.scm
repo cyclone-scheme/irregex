@@ -1,0 +1,16 @@
+(package
+  (name irregex)
+  (version 0.1)
+  (license "BSD")
+  (authors "Alex Shinn")
+  (maintainers "Arthur Maciel <arthurmaciel at gmail dot com>")
+  (description "IrRegular Expressions")
+  (tags "language extensions")
+  (docs "https://github.com/cyclone-scheme/cyclone-winds/wiki/irregex")
+  (test "test.scm")
+  (dependencies ())
+  (test-dependencies ())
+  (foreign-dependencies ())
+  (library
+    (name (cyclone irregex))
+    (description "IrRegular Expressions")))
